@@ -1,0 +1,219 @@
+ /* Add custom CSS for the navbar */
+ .navbar {
+    display: flex;
+    justify-content: space-between; /* Add space between logo and buttons */
+    align-items: center;
+    background: linear-gradient(to bottom, #ef9928, #54cde5);
+    color: #fff;
+    height: 70px;
+    padding: 10px;
+  }
+  
+  /* Adjust the logo and title styles */
+  .logo {
+    margin-right: 10px; /* Reduce margin for smaller screens */
+  }
+  
+  .title {
+    margin-right: 10px; /* Reduce margin for smaller screens */
+    font-size: 18px; /* Reduce font size for smaller screens */
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .nav-button {
+    background-color: #36db86;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Add a media query for smaller screens */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack elements vertically */
+      height: auto; /* Remove fixed height */
+    }
+  
+    .logo, .title, .nav-buttons {
+      margin: 10px 0; /* Add margin to all elements for spacing */
+      text-align: center; /* Center-align elements */
+    }
+  
+    .title {
+      font-size: 16px; /* Reduce font size further for smaller screens */
+    }
+  }
+      h1,h2 {
+              font-family: 'Poppins', sans-serif;
+          }
+  
+      .navbar h1 {
+        margin: 0;
+      }
+  
+      .nav-buttons {
+        display: flex;
+        gap: 12px; /* Adjust the spacing between buttons */
+      }
+  
+      .nav-button {
+        background-color: #36db86; /* Set the button background color to orange */
+        color: #fff; /* Text color */
+        border: none; /* Remove the button border */
+        border-radius: 50px; /* Make it oval rounded */
+        padding: 10px 20px; /* Adjust padding as needed */
+        cursor: pointer;
+        transition: background-color 0.3s; /* Add a transition for hover effect */
+      }
+  
+      .nav-button:hover {
+        background-color: #efa104; /* Change to blue on hover */
+      }
+  
+      /* Add custom CSS to align the form to the right and center align the content */
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #ef9928, #54cde5);
+        margin: 0;
+        padding: 0;
+      }
+  
+  
+      /* Add custom CSS to align the form to the right and center align the content */
+    
+  
+      .container {
+        display: flex;
+        justify-content: flex-end; /* Align the form to the right */
+        max-width: 1000px;
+        margin: 50px auto;
+        
+      }
+  
+      .form-container {
+        flex: 1;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      .form-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+      }
+  
+      .form-group {
+        margin-bottom: 15px;
+      }
+  
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+      }
+  
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+  
+      .form-group input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+      }
+  
+      .form-group input[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+  
+      /* Add styles to align the textarea container to the right */
+      .textarea-container {
+        flex: 1;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-left: 20px; /* Add some space between the form and textarea */
+      }
+  
+      .textarea-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+      }
+  
+      .textarea-container .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+      }
+  
+      .textarea-container .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical; /* Allow vertical resizing of the textarea */
+      }
+  
+      /* Hide the submit button for the textarea form */
+      .textarea-container .form-group input[type="submit"] {
+        display: none;
+      }
+  
+  
+      .country-code {
+      display: flex;
+      align-items: center;
+      max-width: 200px; /* Adjust the width as needed */
+  }
+  
+  .country-code span {
+      margin-right: 10px; /* Add some space between the flag and input */
+      font-size: 18px; /* Adjust the font size as needed */
+  }
+  
+  .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+      font-size: 14px; /* Adjust the font size as needed */
+    }
+  
+    /* Adjust the padding for form inputs */
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"],
+    .form-group textarea {
+      width: 50%;
+      padding: 8px; /* Reduce padding for a more compact look */
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
+  
+    .error-message {
+              color: red;
+              font-size: 12px;
+              margin-top: 5px;
+              color: red;
+     
+      display: inline; }
+  
+    .error-container {
+      display: inline;
+  }
+  

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#B4D5F2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+}
+
+h1 {
+    background-color: #339B66;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-left: 20px;
+    color: #333;
+}
+
+p {
+    margin: 0px 0px;
+    margin-left: 5px;
+    color: black !important;
+    background-color:#64C7D1;
+}
+
+strong {
+    color: #333;
+}
+
+button {
+    background-color: #339B66;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: Black;
+}
+
+.delete-button {
+    background-color: #339B66;
+}
+
+.delete-button:hover {
+    background-color: #339B66;
+}
+.ticket-box {
+border: 3px solid #ccc;
+padding: 10px;
+margin: 5px;
+border-radius: 5px;
+background-color: #f9f9f9;
+}
+
+.ticket-box h2 {
+font-size: 24px;
+}
+.close-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #339B66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
